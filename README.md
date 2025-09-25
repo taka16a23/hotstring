@@ -24,22 +24,23 @@
 
 ```bash
 git clone https://github.com/taka16a23/hotstring.el.git
-
+```
 ---
 
 ## hotstringライブラリ読み込みと有効化
-
+```Emacs Lisp
 (add-to-list 'load-path "/path/to/hotstring.el")
 (require 'hotstring)
 (hotstring-global-mode 1)
-
+```
 ---
 
 ## 置き換え文字列の設定例
-
+```Emacs Lisp
 (custom-set-variables
    '(hots-global-table-predefine '(
      ("pyhton" . "python")
      ("slef"   . "self")
      ("eamcs"  . "emacs")
     )))
+```
