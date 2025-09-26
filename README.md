@@ -23,7 +23,7 @@
 本リポジトリをクローン、または `hotstring.el` をダウンロードしてください。
 
 ```bash
-git clone https://github.com/taka16a23/hotstring.el.git
+git clone https://github.com/taka16a23/hotstring.git
 ```
 ---
 
